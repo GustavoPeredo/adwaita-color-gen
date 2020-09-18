@@ -13,7 +13,6 @@ BuildArch:	noarch
 A package that contains variations of Adwaita in different colors
 
 %prep
-%autosetup
 
 
 %build
