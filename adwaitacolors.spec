@@ -6,21 +6,18 @@ Summary:        A package that contains variations of Adwaita in different color
 Group:		Utilities
 License:        GPL
 URL:            https://github.com/Gnostiphage/adwaita-color-gen
-Source0:        AdwaitaColors-1.0.tar.xz
+Source0:        https://github.com/GustavoPeredo/adwaita-color-gen/raw/master/AdwaitaColors-1.0.tar.xz
 BuildArch:	noarch   
 
 %description
 A package that contains variations of Adwaita in different colors
 
 %prep
-
-%setup -q
-
-%build
-
+%setup -n AdwaitaColors-1.0
 
 %install
-cp -a Adwaita-blue $RPM_BUILD_ROOT/usr/share/themes/Adwaita-blue
+mkdir -p %{buildroot}/usr/share/themes/
+cp -r -a %{_builddir}/Adwaita-blue %{buildroot}/usr/share/themes/Adwaita-blue
 #cp -r -a Adwaita-blue-dark $RPM_BUILD_ROOT/usr/share/themes/Adwaita-blue-dark
 #cp -r -a Adwaita-cyan $RPM_BUILD_ROOT/usr/share/themes/Adwaita-cyan
 #cp -r -a Adwaita-cyan-dark $RPM_BUILD_ROOT/usr/share/themes/Adwaita-cyan-dark
