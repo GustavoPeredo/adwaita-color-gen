@@ -19,33 +19,32 @@ A package that contains variations of Adwaita in different colors
 
 
 %install
-rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-blue
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-blue-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-cyan
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-cyan-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-grass
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-grass-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-gray
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-gray-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-green
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-green-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-indigo
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-indigo-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-magenta
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-magenta-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-orange
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-orange-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-pink
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-pink-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-red
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-red-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-teal
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-teal-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-violet
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-violet-dark
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-yellow
-install -d $RPM_BUILD_ROOT/usr/share/themes/Adwaita-yellow-dark
+cp Adwaita-blue -a -r  %{build_root}/usr/share/themes/Adwaita-blue
+cp Adwaita-blue-dark -a -r  %{build_root}/usr/share/themes/Adwaita-blue-dark
+cp Adwaita-cyan -a -r  %{build_root}/usr/share/themes/Adwaita-cyan
+cp Adwaita-cyan-dark -a -r  %{build_root}/usr/share/themes/Adwaita-cyan-dark
+cp Adwaita-grass -a -r  %{build_root}/usr/share/themes/Adwaita-grass
+cp Adwaita-grass-dark -a -r  %{build_root}/usr/share/themes/Adwaita-grass-dark
+cp Adwaita-gray -a -r  %{build_root}/usr/share/themes/Adwaita-gray
+cp Adwaita-gray-dark -a -r  %{build_root}/usr/share/themes/Adwaita-gray-dark
+cp Adwaita-green -a -r  %{build_root}/usr/share/themes/Adwaita-green
+cp Adwaita-green-dark -a -r  %{build_root}/usr/share/themes/Adwaita-green-dark
+cp Adwaita-indigo -a -r  %{build_root}/usr/share/themes/Adwaita-indigo
+cp Adwaita-indigo-dark -a -r  %{build_root}/usr/share/themes/Adwaita-indigo-dark
+cp Adwaita-magenta -a -r  %{build_root}/usr/share/themes/Adwaita-magenta
+cp Adwaita-magenta-dark -a -r  %{build_root}/usr/share/themes/Adwaita-magenta-dark
+cp Adwaita-orange -a -r  %{build_root}/usr/share/themes/Adwaita-orange
+cp Adwaita-orange-dark -a -r  %{build_root}/usr/share/themes/Adwaita-orange-dark
+cp Adwaita-pink -a -r  %{build_root}/usr/share/themes/Adwaita-pink
+cp Adwaita-pink-dark -a -r  %{build_root}/usr/share/themes/Adwaita-pink-dark
+cp Adwaita-red -a -r  %{build_root}/usr/share/themes/Adwaita-red
+cp Adwaita-red-dark -a -r  %{build_root}/usr/share/themes/Adwaita-red-dark
+cp Adwaita-teal -a -r  %{build_root}/usr/share/themes/Adwaita-teal
+cp Adwaita-teal-dark -a -r  %{build_root}/usr/share/themes/Adwaita-teal-dark
+cp Adwaita-violet -a -r  %{build_root}/usr/share/themes/Adwaita-violet
+cp Adwaita-violet-dark -a -r  %{build_root}/usr/share/themes/Adwaita-violet-dark
+cp Adwaita-yellow -a -r  %{build_root}/usr/share/themes/Adwaita-yellow
+cp Adwaita-yellow-dark -a -r  %{build_root}/usr/share/themes/Adwaita-yellow-dark
 
 %files
 %defattr(-,root,root,-)
