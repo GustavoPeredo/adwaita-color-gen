@@ -17,7 +17,7 @@ A package that contains variations of Adwaita in different colors
 
 %install
 mkdir -p %{buildroot}/usr/share/themes/
-cp -r -a %{_builddir}/Adwaita-blue %{buildroot}/usr/share/themes/Adwaita-blue
+cp -r -a %{_builddir}/AdwaitaColors-1.0/Adwaita-blue %{buildroot}/usr/share/themes/Adwaita-blue
 #cp -r -a Adwaita-blue-dark $RPM_BUILD_ROOT/usr/share/themes/Adwaita-blue-dark
 #cp -r -a Adwaita-cyan $RPM_BUILD_ROOT/usr/share/themes/Adwaita-cyan
 #cp -r -a Adwaita-cyan-dark $RPM_BUILD_ROOT/usr/share/themes/Adwaita-cyan-dark
