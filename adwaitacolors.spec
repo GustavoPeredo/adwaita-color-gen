@@ -19,6 +19,7 @@ A package that contains variations of Adwaita in different colors
 
 
 %install
+ls
 cp -r Adwaita-blue %{build_root}/usr/share/themes/Adwaita-blue
 cp -r Adwaita-blue-dark %{build_root}/usr/share/themes/Adwaita-blue-dark
 cp -r Adwaita-cyan %{build_root}/usr/share/themes/Adwaita-cyan
